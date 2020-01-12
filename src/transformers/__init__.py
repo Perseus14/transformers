@@ -343,6 +343,7 @@ if is_tf_available():
         TFRobertaForMaskedLM,
         TFRobertaForSequenceClassification,
         TFRobertaForTokenClassification,
+	TFRobertaForQuestionAnswering,
         TF_ROBERTA_PRETRAINED_MODEL_ARCHIVE_MAP,
     )
 
@@ -369,6 +370,7 @@ if is_tf_available():
         TFAlbertModel,
         TFAlbertForMaskedLM,
         TFAlbertForSequenceClassification,
+	TFAlbertForQuestionAnswering,
         TF_ALBERT_PRETRAINED_MODEL_ARCHIVE_MAP,
     )
 
